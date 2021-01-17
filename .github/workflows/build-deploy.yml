@@ -31,7 +31,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: pbeke/docker-desktop:latest
+        tags: pbeke/qownnotes-docker-desktop:latest
     -
       name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}

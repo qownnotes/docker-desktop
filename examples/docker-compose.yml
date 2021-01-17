@@ -1,8 +1,8 @@
 version: '3.7'
 services:
-  # https://github.com/pbek/docker-desktop
+  # https://github.com/qownnotes/docker-desktop
   desktop:
-    image: pbeke/docker-desktop
+    image: pbeke/qownnotes-docker-desktop
     restart: unless-stopped
     volumes:
       - /dev/shm:/dev/shm
