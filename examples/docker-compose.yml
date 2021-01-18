@@ -5,14 +5,27 @@ services:
     image: pbeke/qownnotes-docker-desktop
     restart: unless-stopped
     volumes:
-      - /dev/shm:/dev/shm
-      - desktop-home:/home
+      - desktop-root:/root
     environment:
-      - USER=demo
-      - PASSWORD=demo
       - TZ=Europe/Vienna
     ports:
       - 6080:80
 
+  # https://hub.docker.com/_/nextcloud
+  nextcloud:
+    image: nextcloud:apache
+    restart: always
+    volumes:
+      - nextcloud-app:/var/www/html
+    ports:
+      - 8080:80
+    environment:
+      - NEXTCLOUD_ADMIN_USER=admin
+      - NEXTCLOUD_ADMIN_PASSWORD=admin
+      - SQLITE_DATABASE=mydb
+      - NEXTCLOUD_TRUSTED_DOMAINS=nextcloud
+      - TZ=Europe/Vienna
+
 volumes:
-  desktop-home:
+  desktop-root:
+  nextcloud-app:
