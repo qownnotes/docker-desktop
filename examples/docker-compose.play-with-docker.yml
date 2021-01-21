@@ -9,9 +9,9 @@ services:
     ports:
       - 6080:80
 
-  # https://hub.docker.com/_/nextcloud
+  # https://github.com/qownnotes/docker-nextbackup
   nextcloud:
-    image: nextcloud:apache
+    image: pbeke/qownnotes-docker-nextcloud
     restart: always
     environment:
       - NEXTCLOUD_ADMIN_USER=admin
