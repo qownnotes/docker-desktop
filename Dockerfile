@@ -8,7 +8,7 @@ RUN sudo sed -i 's|http://tw.|http://de.|g' /etc/apt/sources.list && sudo apt up
 RUN sudo add-apt-repository -y ppa:pbek/qownnotes
 RUN sudo add-apt-repository -y ppa:nextcloud-devs/client
 
-RUN sudo apt -y upgrade
+#RUN sudo apt -y upgrade
 RUN sudo apt -y install qownnotes fish nextcloud-client less mc htop git vim inetutils-ping
 
 # allow nextcloud sync client to be run in docker image
