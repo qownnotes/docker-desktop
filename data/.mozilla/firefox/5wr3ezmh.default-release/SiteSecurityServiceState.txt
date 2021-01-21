@@ -1,0 +1,7 @@
+firefox.settings.services.mozilla.com:HSTS	0	18645	1642534905227,1,0,2
+services.addons.mozilla.org:HSTS	0	18645	1642535025782,1,0,2
+incoming.telemetry.mozilla.org:HSTS	0	18645	1626768137895,1,0,2
+location.services.mozilla.com:HSTS	0	18645	1642536078425,1,1,2
+www.google.com^firstPartyDomain=google-canonical.search.suggestions.mozilla:HSTS	0	18645	1642536086522,1,0,2
+usercontent.apps.nextcloud.com:HSTS	0	18645	1626768160601,1,1,2
+aus5.mozilla.org:HSTS	0	18645	1642535026040,1,0,2

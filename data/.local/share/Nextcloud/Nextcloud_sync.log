@@ -1,0 +1,40 @@
+/root/Nextcloud/
+# timestamp | duration | file | instruction | dir | modtime | etag | size | fileId | status | errorString | http result code | other size | other modtime | other etag | other fileId | other instruction
+#=#=#=# Syncrun started 2021-01-18T19:55:26Z
+#=#=#=#=# Propagation starts 2021-01-18T19:55:26Z (last step: 229 msec, total: 229 msec)
+||Documents|INST_NEW|Down|1610998082|6005e14207532|0|00000003ocs5bx4nwu2p|4||0|0|0||||
+||Photos|INST_NEW|Down|1610998082|6005e14242ce1|0|00000011ocs5bx4nwu2p|4||0|0|0||||
+19:55:26||Documents/Example.md|INST_NEW|Down|1610998082|7abc7773af3ecca45a85f4dfae02d668|1095|00000004ocs5bx4nwu2p|4||0|0|0||||
+19:55:26||Documents/Welcome to Nextcloud Hub.docx|INST_NEW|Down|1610998082|83c4edac42a378615422fb10152610d9|25150|00000007ocs5bx4nwu2p|4||0|0|0||||
+19:55:26||Documents/Readme.md|INST_NEW|Down|1610998082|78277be658829c1dee7c6d385b9c48fc|136|00000006ocs5bx4nwu2p|4||0|0|0||||
+19:55:26||Photos/Birdie.jpg|INST_NEW|Down|1610998082|38d90339ed29fd1884a81f46205a646b|593508|00000016ocs5bx4nwu2p|4||0|0|0||||
+19:55:26||Documents/Nextcloud flyer.pdf|INST_NEW|Down|1610998082|c721e974a553bdc4cdca76866c88d0e5|374008|00000005ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Frog.jpg|INST_NEW|Down|1610998082|4af1dcc62a2f2bfbe7c831ac6867f284|457744|00000017ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Gorilla.jpg|INST_NEW|Down|1610998082|c0f2d8655b809b8d207d9823d789a4f6|474653|00000012ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Nextcloud community.jpg|INST_NEW|Down|1610998082|985cb8e635d3040709dbccfe56353549|797325|00000013ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Readme.md|INST_NEW|Down|1610998082|9583a95d440337900b8e8eb24ce2cb83|150|00000019ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Toucan.jpg|INST_NEW|Down|1610998082|86ee8bab135afc2148527e2db6cd8f60|167989|00000018ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Steps.jpg|INST_NEW|Down|1610998082|1ef96fbdc1d50f5c5d746e87e35ec9f4|567689|00000014ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Vineyard.jpg|INST_NEW|Down|1610998082|57da41c5987f9c735873815511174ed4|427030|00000015ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Photos/Library.jpg|INST_NEW|Down|1610998082|cd69ea0859218373e81b40cd0f318133|2170375|00000020ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Nextcloud.png|INST_NEW|Down|1610998082|44d10d81e257f37afdf154a60a57b96b|50598|00000021ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Reasons to use Nextcloud.pdf|INST_NEW|Down|1610998082|ebd8f674754f6a2c9193f098d0baa22f|791921|00000010ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Nextcloud intro.mp4|INST_NEW|Down|1610998082|8c1b8076f95bdcbd31bf9b82396a54a7|3963036|00000008ocs5bx4nwu2p|4||0|0|0||||
+19:55:27||Nextcloud Manual.pdf|INST_NEW|Down|1610998082|a9d0f7fc87c2d3db1e55e5c1003f9ddc|5748719|00000009ocs5bx4nwu2p|4||0|0|0||||
+#=#=#=# Syncrun finished 2021-01-18T19:55:27Z (last step: 673 msec, total: 903 msec)
+#=#=#=# Syncrun started 2021-01-18T19:55:52Z
+#=#=#=#=# Propagation starts 2021-01-18T19:55:52Z (last step: 35 msec, total: 35 msec)
+19:55:52||Notes|INST_NEW|Up|1610999750||4096|00000160ocs5bx4nwu2p|4||201|0|0||||
+#=#=#=# Syncrun finished 2021-01-18T19:55:52Z (last step: 128 msec, total: 164 msec)
+#=#=#=# Syncrun started 2021-01-18T19:56:02Z
+#=#=#=#=# Propagation starts 2021-01-18T19:56:02Z (last step: 85 msec, total: 85 msec)
+19:56:02||Notes/Markdown Cheatsheet.md|INST_NEW|Up|1610999760|78fcbbfab387790eada3c7755350be4d|6348|00000162ocs5bx4nwu2p|4||201|0|0||||
+19:56:02||Notes/notes.sqlite|INST_NEW|Up|1610999760|5aaa24e5523027fb7b71c77596a96c93|36864|00000163ocs5bx4nwu2p|4||201|0|0||||
+19:56:02||Notes/Welcome to QOwnNotes.md|INST_NEW|Up|1610999760|8e20ac1fafac39fe837f2ff94bcb6cfb|1505|00000161ocs5bx4nwu2p|4||201|0|0||||
+#=#=#=# Syncrun finished 2021-01-18T19:56:03Z (last step: 289 msec, total: 375 msec)
+#=#=#=# Syncrun started 2021-01-18T19:57:02Z
+#=#=#=#=# Propagation starts 2021-01-18T19:57:02Z (last step: 52 msec, total: 52 msec)
+#=#=#=# Syncrun finished 2021-01-18T19:57:02Z (last step: 9 msec, total: 62 msec)
+#=#=#=# Syncrun started 2021-01-19T18:34:47Z
+#=#=#=#=# Propagation starts 2021-01-19T18:34:47Z (last step: 33 msec, total: 33 msec)
+#=#=#=# Syncrun finished 2021-01-19T18:34:47Z (last step: 14 msec, total: 47 msec)
