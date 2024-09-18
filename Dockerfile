@@ -3,7 +3,10 @@
 
 FROM dorowu/ubuntu-desktop-lxde-vnc
 
-RUN sudo sed -i 's|http://tw.|http://de.|g' /etc/apt/sources.list && sudo apt update && sudo apt -y install dirmngr
+RUN sudo sed -i 's|http://tw.|http://de.|g' /etc/apt/sources.list && \
+    sudo sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E88979FB9B30ACF2 && \
+    sudo apt update && \
+    sudo apt -y install dirmngr
 
 RUN sudo add-apt-repository -y ppa:pbek/qownnotes
 RUN sudo add-apt-repository -y ppa:nextcloud-devs/client
